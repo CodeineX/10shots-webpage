@@ -1,26 +1,39 @@
-import Header from './components/Header';
+import Header from './components/mobile/Header';
 import './App.css';
-import Page1 from './components/Page1';
-import RedStrip from './components/RedStrip';
-import Page2 from './components/Page2';
-
-const appLink = 'https://play.google.com/store/apps/details?id=com.meteora_10shots.app';
+import Page1 from './components/mobile/Page1';
+import RedStrip from './components/mobile/RedStrip';
+import Page2 from './components/mobile/Page2';
+import Page1desktop from './components/desktop/Page1-desktop';
+import RedStripDesktop from './components/desktop/RedStrip-desktop';
+import Page2Desktop from './components/desktop/Page2-desktop';
 
 function App() {
-  const handleButtonClick = () => {
-    window.open(appLink, '_blank'); // Open link in new tab
-  };
-  return (
-    <div className="App">
-      <Header/>
-      <Page1/>
-      <RedStrip buttonText="Download Now" buttonOnClick={handleButtonClick} />
-      <section style={{ backgroundColor: 'black', padding: '2rem 1rem', color: 'white', marginBottom: -275 }}>
-        <Page2/>
-      </section>
-      <RedStrip text="Lower Text" buttonText="Download Now" buttonOnClick={handleButtonClick} />
-    </div>
-  );
+  if(window.innerWidth < 786){
+    return (
+      <div className="App">
+        <Header/>
+        <Page1/> 
+        <RedStrip/>
+        <section style={{ backgroundColor: 'black', padding: '2rem 1rem', color: 'white', marginBottom: -275 }}>
+          <Page2/>
+        </section>
+        <RedStrip/>
+      </div>
+    );
+  }
+  else{
+    return (
+      <div className="App">
+        <Header/>
+        <Page1desktop/>
+        <RedStripDesktop/>
+        <section style={{ backgroundColor: 'black', padding: '2rem 1rem', color: 'white' }}>
+          <Page2Desktop/>
+        </section>
+        <RedStripDesktop/>
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo-blackbg.png'; // Replace with your logo image path
+import logo from '../../assets/logo-blackbg.png'; // Replace with your logo image path
 
 const Header = () => {
   return (

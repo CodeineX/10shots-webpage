@@ -1,12 +1,13 @@
 import React from 'react';
-import backgroundImage from '../assets/background.png'; // Replace with your background image path
+import backgroundImage from '../../assets/background.png'; // Replace with your background image path
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import '../App.css'
+import '../../App.css'
 
 const betaTesterLink = 'https://groups.google.com/g/closed-testers-10shots';
 
 const Page1 = () => {
+  console.log("Width", window.innerWidth)
   const handleButtonClick = () => {
     window.open(betaTesterLink, '_blank'); // Open link in new tab
   };
@@ -32,7 +33,7 @@ const Page1 = () => {
       </div>
       <div style={{position: 'absolute', bottom: 50 }}>
         <div style={{ backgroundColor: 'rgba(0,0,0,0.5)', padding: '5v', zIndex: 1, paddingLeft: '10px', paddingRight: '10px'}}>
-            <p style={{ color: 'white', textAlign: 'left', marginTop: '2rem', fontSize: '1.5rem', fontWeight: 'bold' }}>
+            <p style={{ color: 'white', textAlign: 'center', marginTop: '2rem', fontSize: '1.5rem', fontWeight: 'bold' }}>
               Consume content that<br/>
               <span style={{ color: '#D22F34', fontSize: '2.2rem' }}>empowers</span> you
             </p>
