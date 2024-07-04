@@ -6,6 +6,7 @@ import Page2 from './components/mobile/Page2';
 import Page1desktop from './components/desktop/Page1-desktop';
 import RedStripDesktop from './components/desktop/RedStrip-desktop';
 import Page2Desktop from './components/desktop/Page2-desktop';
+import BlackStrip from './components/mobile/BlackStrip';
 
 function App() {
   if(window.innerWidth < 786){
@@ -18,6 +19,7 @@ function App() {
           <Page2/>
         </section>
         <RedStrip/>
+        <BlackStrip/>
       </div>
     );
   }

@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import QRBlack from '../../assets/QR-BlackBorder.png'
 import '../../App.css'
 import { faGooglePlay } from '@fortawesome/free-brands-svg-icons';
@@ -38,7 +37,7 @@ window.open(betaTesterLink, '_blank'); // Open link in new tab
             </div>
 
             <div style={{flex: 1}}>
-                <img src={QRBlack} style={{width: 150}}/>
+                <img src={QRBlack} alt='QR-Code' style={{width: 150}}/>
                 <span style={{color: 'white'}}><br/>Currently only available <br/>on the PlayStore <FontAwesomeIcon icon={faGooglePlay} /></span>
             </div>
         </div>

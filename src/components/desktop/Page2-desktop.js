@@ -5,6 +5,7 @@ import shotsImage2 from '../../assets/page2/10shots-image2.png'
 import middleImage from '../../assets/page2/desktop/book-10shots.png'
 import tenMin from '../../assets/page2/desktop/10-min.png'
 import titles from '../../assets/page2/desktop/Frame 50.png'
+import shotsDemo from '../../assets/page2/desktop/10shots demo.png'
 
 import '../../App.css'
 
@@ -23,12 +24,11 @@ const Page2Desktop = () => {
         justifyContent: 'space-around',
         paddingTop: 20
       }}>
-        <img className="autoShow" src={booksImage} alt='BooksImage' style={{filter: 'grayscale(100%)', objectFit: 'contain'}}/>
+        <img className="autoShow" src={booksImage} alt='BooksImage' style={{filter: 'grayscale(100%)', objectFit: 'contain', width: 0.3*window.innerWidth}}/>
 
-        <img className="autoShow" src={middleImage} alt='Books' style={{objectFit: 'contain', width: 400, }}/>
+        <img className="autoShow" src={middleImage} alt='Books' style={{objectFit: 'contain', width: 0.25*window.innerWidth }}/>
         
-        <img className="autoShow" src={shotsImage1} alt='AppImage1' style={{objectFit: 'contain', }}/>
-        <img className="autoShow" src={shotsImage2} alt='BooksImage' style={{objectFit: 'contain',  }}/>
+        <img className="autoShow" src={shotsDemo} alt='AppImage1' style={{objectFit: 'contain', width: 0.3*window.innerWidth}}/>
       </div>
       <div style={{display: 'flex', justifyContent: 'space-around', marginTop: 200}}>
         <img src={tenMin} alt='10-min' style={{objectFit: 'contain', width: 300}}/>
