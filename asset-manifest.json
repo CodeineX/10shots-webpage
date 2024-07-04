@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.76f8e611.css",
-    "main.js": "/static/js/main.ce8c6ac1.js",
+    "main.js": "/static/js/main.ce134ce9.js",
     "static/js/453.1322b508.chunk.js": "/static/js/453.1322b508.chunk.js",
     "static/media/bg-desktop.png": "/static/media/bg-desktop.cd0d6e29b8470fbb62d5.png",
+    "static/media/10shots demo.png": "/static/media/10shots demo.0575b42445e450e57dbc.png",
     "static/media/10-min.png": "/static/media/10-min.6c9bd3b6283faa637eed.png",
     "static/media/background.png": "/static/media/background.4ac6ceb72acd5f8c3a6c.png",
     "static/media/QR-Playstore.png": "/static/media/QR-Playstore.7fb23554fb6a5ad73ba3.png",
@@ -16,11 +17,11 @@
     "static/media/booksImage.png": "/static/media/booksImage.a9f27a9a42f843599288.png",
     "index.html": "/index.html",
     "main.76f8e611.css.map": "/static/css/main.76f8e611.css.map",
-    "main.ce8c6ac1.js.map": "/static/js/main.ce8c6ac1.js.map",
+    "main.ce134ce9.js.map": "/static/js/main.ce134ce9.js.map",
     "453.1322b508.chunk.js.map": "/static/js/453.1322b508.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76f8e611.css",
-    "static/js/main.ce8c6ac1.js"
+    "static/js/main.ce134ce9.js"
   ]
 }
