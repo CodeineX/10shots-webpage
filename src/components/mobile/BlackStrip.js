@@ -2,13 +2,31 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import '../../App.css'
+import axios from 'axios';
 
 const BlackStrip = () => {
   const [email, setEmail] = useState('');
 
   const handleJoinClick = async () => {
     if (email) {
-      console.log("Email handled")
+      // console.log("Email handled")
+      try {
+        const response = await axios.post('https://gtufwoeebaq3pvjve4k2qj4bd40ktyqt.lambda-url.ap-south-1.on.aws/api/ios-users', {
+          email
+        });
+  
+        if (response.status === 200) { // Check for successful status code (200)
+          alert('Thank You. You will be notified');
+          setEmail(''); // Clear the email input after successful submission
+        } else {
+          alert('Registration Failed. Please Try Again');
+          // Handle the error, like showing an error message to the user
+        }
+      } catch (error) {
+        console.error('Error submitting email:', error);
+        alert('Please enter a valid email address.');
+        // Handle network errors or other unexpected issues
+      }
       setEmail(''); // Clear the email input after successful submission (optional)
     } else {
       alert('Please enter your email address.');
