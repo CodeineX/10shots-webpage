@@ -1,27 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.76f8e611.css",
-    "main.js": "/static/js/main.14a0e279.js",
+    "main.js": "/static/js/main.6b7739e2.js",
     "static/js/453.1322b508.chunk.js": "/static/js/453.1322b508.chunk.js",
     "static/media/bg-desktop.png": "/static/media/bg-desktop.cd0d6e29b8470fbb62d5.png",
     "static/media/10shots demo.png": "/static/media/10shots demo.0575b42445e450e57dbc.png",
+    "static/media/10shots demo-MOBILE.png": "/static/media/10shots demo-MOBILE.ca92c0bc725348c9efe7.png",
     "static/media/10-min.png": "/static/media/10-min.6c9bd3b6283faa637eed.png",
     "static/media/background.png": "/static/media/background.4ac6ceb72acd5f8c3a6c.png",
     "static/media/QR-Playstore.png": "/static/media/QR-Playstore.7fb23554fb6a5ad73ba3.png",
-    "static/media/10shots-image2.png": "/static/media/10shots-image2.dadbff88e66d171203a6.png",
     "static/media/QR-BlackBorder.png": "/static/media/QR-BlackBorder.e7c2e6bc0b73d36a1d0f.png",
     "static/media/logo-blackbg.png": "/static/media/logo-blackbg.5e42d34c7b01c0d2948b.png",
     "static/media/book-10shots.png": "/static/media/book-10shots.e3fb3d3bfffd0522c43e.png",
     "static/media/Frame 50.png": "/static/media/Frame 50.dd3610eba78193c9806d.png",
-    "static/media/10shots-image1.png": "/static/media/10shots-image1.51882cd3ed8e1e56c623.png",
     "static/media/booksImage.png": "/static/media/booksImage.a9f27a9a42f843599288.png",
     "index.html": "/index.html",
     "main.76f8e611.css.map": "/static/css/main.76f8e611.css.map",
-    "main.14a0e279.js.map": "/static/js/main.14a0e279.js.map",
+    "main.6b7739e2.js.map": "/static/js/main.6b7739e2.js.map",
     "453.1322b508.chunk.js.map": "/static/js/453.1322b508.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76f8e611.css",
-    "static/js/main.14a0e279.js"
+    "static/js/main.6b7739e2.js"
   ]
 }
