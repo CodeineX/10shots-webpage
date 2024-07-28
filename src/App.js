@@ -7,6 +7,7 @@ import Page1desktop from './components/desktop/Page1-desktop';
 import RedStripDesktop from './components/desktop/RedStrip-desktop';
 import Page2Desktop from './components/desktop/Page2-desktop';
 import BlackStrip from './components/mobile/BlackStrip';
+import BlackStripDesktop from './components/desktop/BlackStrip-desktop';
 
 function App() {
   if(window.innerWidth < 786){
@@ -15,7 +16,7 @@ function App() {
         <Header/>
         <Page1/> 
         <RedStrip/>
-        <section style={{ backgroundColor: 'black', padding: '2rem 1rem', color: 'white', marginBottom: -275 }}>
+        <section style={{ backgroundColor: 'black', paddingRight: '2rem',paddingLeft: '2rem', paddingTop: '2rem', color: 'white'}}>
           <Page2/>
         </section>
         <RedStrip/>
@@ -33,6 +34,7 @@ function App() {
           <Page2Desktop/>
         </section>
         <RedStripDesktop/>
+        {/* <BlackStripDesktop/> */}
       </div>
     );
   }

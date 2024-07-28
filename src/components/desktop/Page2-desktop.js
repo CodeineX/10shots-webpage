@@ -1,7 +1,5 @@
 import React from 'react';
 import booksImage from '../../assets/page2/booksImage.png'
-import shotsImage1 from '../../assets/page2/10shots-image1.png'
-import shotsImage2 from '../../assets/page2/10shots-image2.png'
 import middleImage from '../../assets/page2/desktop/book-10shots.png'
 import tenMin from '../../assets/page2/desktop/10-min.png'
 import titles from '../../assets/page2/desktop/Frame 50.png'

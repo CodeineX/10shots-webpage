@@ -35,28 +35,28 @@ const Page1desktop = () => {
           STOP THE ZOMBIE <span style={{ color: '#D22F34' }}>SCROLL</span>
         </p>
       </div>
-      <div style={{position: 'absolute', bottom: 20, display: 'flex',width: '100%', justifyContent: 'space-around' }}>
+      <div style={{position: 'absolute', bottom: 20, display: 'flex',width: '70%', justifyContent: 'space-between', paddingRight: '3rem', paddingLeft: '3rem' }}>
         <div>
           <div style={{position: 'absolute', bottom: 0,}}>
             <div style={{ backgroundColor: 'rgba(0,0,0,0.5)', padding: '5v', zIndex: 1, paddingLeft: '10px', paddingRight: '10px'}}>
-                <p style={{ color: 'white', textAlign: 'center', marginTop: '2rem', fontSize: '1.3rem', fontWeight: 'bold' }}>
+                <p style={{ color: 'white', textAlign: 'center', marginTop: '2rem', fontSize: '2rem', fontWeight: 'bold' }}>
                 Consume content that<br/>
-                <span style={{ color: '#D22F34', fontSize: '1.7rem' }}>empowers</span> you
+                <span style={{ color: '#D22F34', fontSize: '2rem' }}>empowers</span> you
                 </p>
             </div>
-            <button className='red_button' onClick={handleTesterButtonClick}>
+            {/* <button className='red_button' onClick={handleTesterButtonClick}>
             <span style={{ fontSize: '1.4rem', marginRight: '2rem' }}>1. Join beta testers group</span>
             <FontAwesomeIcon icon={faArrowRight} />
-            </button>
+            </button> */}
           </div>
         </div>
         <div>
           <div>
             <img src={QR} alt='Playstore-QR' style={{width: 175}}/>
           </div>
-          <span style={{color: 'white', fontSize: '1.5rem', fontWeight: 'bold'}}>OR<br/><br/></span>
+          <span style={{color: 'white', fontSize: '2rem', fontWeight: 'bold'}}>OR<br/><br/></span>
           <button className='red_button' onClick={handleAppButtonClick}>
-          <span style={{ fontSize: '1.4rem', marginRight: '1.5rem' }}>2. Download Now</span>
+          <span style={{ fontSize: '1.4rem', marginRight: '1.5rem' }}>Download Now</span>
           <FontAwesomeIcon icon={faGooglePlay} />
           </button>
         </div>

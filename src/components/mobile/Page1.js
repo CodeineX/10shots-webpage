@@ -2,14 +2,15 @@ import React from 'react';
 import backgroundImage from '../../assets/background.png'; // Replace with your background image path
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import '../../App.css'
 
-const betaTesterLink = 'https://groups.google.com/g/closed-testers-10shots';
+const appLink = 'https://play.google.com/store/apps/details?id=com.meteora_10shots.app';
 
 const Page1 = () => {
   console.log("Width", window.innerWidth)
   const handleButtonClick = () => {
-    window.open(betaTesterLink, '_blank'); // Open link in new tab
+    window.open(appLink, '_blank'); // Open link in new tab
   };
   return (
     <section style={{
@@ -39,8 +40,8 @@ const Page1 = () => {
             </p>
         </div>
         <button className='red_button' onClick={handleButtonClick}>
-          <span style={{ fontSize: '1.3rem', marginRight: '3rem' }}>Join beta testers group</span>
-          <FontAwesomeIcon icon={faArrowRight} />
+          <span style={{ fontSize: '1.3rem', marginRight: '1rem' }}>Download Now</span>
+          <FontAwesomeIcon icon={faGooglePlay} />
         </button>
       </div>
     </section>

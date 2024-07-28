@@ -4,8 +4,8 @@ import booksImage from '../../assets/page2/booksImage.png'
 import arrow from '../../assets/page2/Arrow 5.png'
 
 import shotsText from '../../assets/page2/10shotsText.png'
-import shotsImage1 from '../../assets/page2/10shots-image1.png'
-import shotsImage2 from '../../assets/page2/10shots-image2.png'
+
+import shotsDemo from '../../assets/page2/10shots demo-MOBILE.png'
 
 import '../../App.css'
 
@@ -39,10 +39,7 @@ const Page2 = () => {
         justifyContent: 'center'
       }}>
         <img className="autoShow" src={shotsText} alt='Books' style={{objectFit: 'contain', width: 0.3*window.innerWidth, zIndex: 4, position:'relative', bottom: 70}}/>
-        <img className="autoShow" src={shotsImage2} alt='BooksImage' style={{objectFit: 'contain', width: 0.6*window.innerWidth, zIndex: 2}}/>
-      </div>
-      <div>
-          <img className="autoShow" src={shotsImage1} alt='AppImage1' style={{objectFit: 'contain', position: 'relative', bottom: 240, right: 40}}/>
+        <img className="autoShow" src={shotsDemo} alt='Demo' style={{objectFit: 'contain', width: 0.6*window.innerWidth, zIndex: 2}}/>
       </div>
     </section>
   );

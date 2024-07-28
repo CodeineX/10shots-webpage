@@ -11,15 +11,14 @@ const RedStrip = () => {
   };
   return (
     <section style={{ backgroundColor: '#D22F34', padding: '1rem' }}>
-      <p style={{ color: 'white', textAlign: 'left', fontSize: '1.2rem' }}>
-        <b>Step 1:</b> Join the beta testers group<br/><br/>
-        <b>Step 2:</b> Download 10shots from Play Store<br/>
+      <p style={{ color: 'white', textAlign: 'center', fontSize: '1.2rem' }}>
+        <b>Download 10shots from Play Store</b><br/>
       </p>
       <button onClick={handleAppButtonClick}>
         <span>Download Now</span>
-        <FontAwesomeIcon icon={faArrowRight} style={{marginLeft: '3rem'}}/>
+        <FontAwesomeIcon icon={faArrowRight} style={{marginLeft: '2rem'}}/>
       </button>
-      <p style={{color: 'white', textAlign: 'left', fontSize: '0.7rem'}}><br/>*Psst: Unable to access download link? Make sure you join the Google group with your primary account (Playstore account)</p>
+      {/* <p style={{color: 'white', textAlign: 'left', fontSize: '0.7rem'}}><br/>*Psst: Unable to access download link? Make sure you join the Google group with your primary account (Playstore account)</p> */}
     </section>
   );
 };
