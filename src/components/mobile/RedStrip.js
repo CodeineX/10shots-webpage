@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import '../../App.css'
 
+
 const appLink = 'https://play.google.com/store/apps/details?id=com.meteora_10shots.app';
 
 const RedStrip = () => {
